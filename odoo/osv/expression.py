@@ -137,7 +137,7 @@ TERM_OPERATORS = set(orm_domains.CONDITION_OPERATORS)
 # legal in the processed term.
 NEGATIVE_TERM_OPERATORS = set(orm_domains.NEGATIVE_CONDITION_OPERATORS)
 
-# Negation of domain expressions
+
 TERM_OPERATORS_NEGATION = orm_domains._INVERSE_OPERATOR | orm_domains._INVERSE_INEQUALITY
 
 TRUE_LEAF = orm_domains._TRUE_LEAF
